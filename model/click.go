@@ -1,8 +1,8 @@
 package model
 
 import (
-	"gitee.com/firewing_group/blue_kxq2/lib"
-	"gitee.com/firewing_group/blue_kxq2/storage"
+	"github.com/Yangshuting/golang_model/lib"
+	"github.com/Yangshuting/golang_model/storage"
 	"gopkg.in/mgo.v2/bson"
 )
 

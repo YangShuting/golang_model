@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"gitee.com/firewing_group/blue_kxq2/lib"
-	"gitee.com/firewing_group/blue_kxq2/model"
+	"github.com/Yangshuting/golang_model/lib"
+	"github.com/Yangshuting/golang_model/model"
 	"github.com/labstack/echo"
 )
 

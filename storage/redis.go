@@ -1,11 +1,10 @@
 package storage
 
 import (
+	"github.com/Yangshuting/golang_model/config"
 	"fmt"
 	"strconv"
 	"time"
-
-	"gitee.com/firewing_group/blue_kxq2/config"
 	"github.com/go-redis/redis"
 )
 

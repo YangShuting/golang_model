@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 
-	"gitee.com/firewing_group/blue_kxq2/storage"
+	"github.com/Yangshuting/golang_model/storage"
 )
 
 func GenRandomBytes(n int) ([]byte, error) {

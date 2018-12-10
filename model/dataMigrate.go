@@ -1,7 +1,5 @@
 package model
 
-import (
-	"gitee.com/firewing_group/blue_kxq2/lib"
-)
+import "github.com/Yangshuting/golang_model/lib"
 
 func MigrateUserFromKuaiMao702SelfDB(cc *lib.Cusctx) {}

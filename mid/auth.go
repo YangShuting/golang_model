@@ -3,12 +3,12 @@ package mid
 import (
 	"net/http"
 
-	"gopkg.in/mgo.v2/bson"
+	"github.com/Yangshuting/golang_model/lib"
+	"github.com/Yangshuting/golang_model/model"
+	"github.com/Yangshuting/golang_model/storage"
 
-	"gitee.com/firewing_group/blue_kxq2/lib"
-	"gitee.com/firewing_group/blue_kxq2/model"
-	"gitee.com/firewing_group/blue_kxq2/storage"
 	"github.com/labstack/echo"
+	"gopkg.in/mgo.v2/bson"
 )
 
 func AuthMid(next echo.HandlerFunc) echo.HandlerFunc {

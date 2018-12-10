@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"gitee.com/firewing_group/blue_kxq2/model"
-	"gitee.com/firewing_group/blue_kxq2/storage"
+	"github.com/Yangshuting/golang_model/model"
+	"github.com/Yangshuting/golang_model/storage"
 	"github.com/stretchr/testify/assert"
 
 	ini "gopkg.in/ini.v1"

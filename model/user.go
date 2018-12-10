@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/firewing_group/blue_kxq2/lib"
+	"github.com/Yangshuting/golang_model/lib"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"gitee.com/firewing_group/blue_kxq2/config"
-	"gitee.com/firewing_group/blue_kxq2/mid"
-	"gitee.com/firewing_group/blue_kxq2/model"
-	"gitee.com/firewing_group/blue_kxq2/router"
-	"gitee.com/firewing_group/blue_kxq2/storage"
+	"github.com/Yangshuting/golang_model/config"
+	"github.com/Yangshuting/golang_model/mid"
+	"github.com/Yangshuting/golang_model/model"
+	"github.com/Yangshuting/golang_model/router"
+	"github.com/Yangshuting/golang_model/storage"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/unrolled/secure"

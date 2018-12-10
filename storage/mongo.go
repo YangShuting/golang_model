@@ -1,9 +1,9 @@
 package storage
 
 import (
+	"github.com/Yangshuting/golang_model/config"
 	"fmt"
 
-	"gitee.com/firewing_group/blue_kxq2/config"
 	mgo "gopkg.in/mgo.v2"
 )
 

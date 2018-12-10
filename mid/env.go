@@ -1,8 +1,8 @@
 package mid
 
 import (
-	"gitee.com/firewing_group/blue_kxq2/lib"
-	"gitee.com/firewing_group/blue_kxq2/storage"
+	"github.com/Yangshuting/golang_model/lib"
+	"github.com/Yangshuting/golang_model/storage"
 	"github.com/labstack/echo"
 )
 

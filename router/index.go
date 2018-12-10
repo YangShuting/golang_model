@@ -1,8 +1,8 @@
 package router
 
 import (
-	"gitee.com/firewing_group/blue_kxq2/handlers"
-	"gitee.com/firewing_group/blue_kxq2/mid"
+	"github.com/Yangshuting/golang_model/handlers"
+	"github.com/Yangshuting/golang_model/mid"
 	"github.com/labstack/echo"
 )
 
