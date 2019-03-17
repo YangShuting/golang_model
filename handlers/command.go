@@ -13,12 +13,12 @@ func NewCommands(c echo.Context) error {
 	cc := c.Get("cc").(*lib.Cusctx)
 	user := lib.GetUser(c).(*model.KuaiMaoUser)
 	command := c.QueryParam("command")
-	//先数据库
+
 	newCom, err := model.NewCommand(cc, user.ID.Hex(), command)
 	if err != nil {
 		return c.JSON(http.StatusBadRequest, lib.WXError(err.Error(), lib.STATUS_BAD_REQUEST))
 	}
-	//然后是redis
+
 	model.RedisListPush("command_"+user.ID.Hex(), command)
 	return c.JSON(http.StatusOK, newCom)
 }
@@ -39,6 +39,5 @@ func TestSpeedLimiter(c echo.Context) error {
 	fmt.Printf("ifSuccess_%+v", bool)
 	fmt.Printf("err_%+v", err)
 	return nil
-	//不起作用，可以使用 redis 脚本来实现
 
 }

@@ -1,7 +1,8 @@
 package model
 
 type LoginParams struct {
-	Telephone string `form:"tel"`
+	Code      string `form:"jscode"`
+	Telephone string `form:tel`
 }
 
 type LoginReturn struct {

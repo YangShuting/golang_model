@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/labstack/echo"
-	"gopkg.in/mgo.v2"
+	mgo "gopkg.in/mgo.v2"
 )
 
 type Cusctx struct {

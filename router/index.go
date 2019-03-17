@@ -13,7 +13,7 @@ type ModelSetting struct {
 func Init() {}
 
 func Start(e *echo.Echo) {
-	e.POST("/blue_kxq2/hello", handlers.Hello, mid.AuthMid)
+	e.GET("/blue_kxq2/hello", handlers.Hello, mid.ReqLimitMid)
 	e.POST("/blue_kxq2/getUserNiCheng", handlers.FindUserNiCheng, mid.AuthMid)
 	e.POST("/blue_kxq2/login", handlers.Login)
 	e.POST("blue_kxq2/newCommand", handlers.NewCommands, mid.AuthMid)

@@ -34,6 +34,7 @@ func main() {
 		Root:   "static",
 		Browse: true,
 	}))
+
 	// logger
 	e.Use(middleware.Logger())
 	router.Start(e)
